@@ -7,8 +7,11 @@ import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
 import Settings from "./components/Settings";
 import Product from "./components/Product";
+import Event from "./components/Event";
+import Form from "./components/Form";
+import Counter from "./components/Counter";
 
-import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, NavLink} from "react-router-dom";
 import ProductList from "./components/ProductList";
 import MessageBox from "./components/MessageBox";
 
@@ -71,13 +74,18 @@ const App = () => {
     // </div>
 
     <>
-    <h1>Blockbuster Deals | Shop now</h1>
+    {/* <h1>Blockbuster Deals | Shop now</h1> */}
 
-     <ProductList/>
+     {/* <ProductList/> */}
      {/* <MessageBox
       name = "Venkatesh"
       textColor = "pink"
      /> */}
+
+     {/* <Event/> */}
+     {/* <Form/> */}
+
+     <Counter/>
     </>
   );
 };
