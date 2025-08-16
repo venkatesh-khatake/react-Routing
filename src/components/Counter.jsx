@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 
 const Counter = () => {
-    const [count, setCount] = useState(0);
+    const  [count, setCount] = useState(0);
 
-    function incCount(){
-        setCount(count++);
+   let incCount = ()=>{
+        setCount(count+1);
+        console.log(count)
     }
   return (
     <div>

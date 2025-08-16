@@ -14,6 +14,7 @@ import Counter from "./components/Counter";
 import { BrowserRouter, Routes, Route, Link, NavLink} from "react-router-dom";
 import ProductList from "./components/ProductList";
 import MessageBox from "./components/MessageBox";
+import LikeButton from "./components/LikeButton";
 
 const App = () => {
   return (
@@ -85,7 +86,8 @@ const App = () => {
      {/* <Event/> */}
      {/* <Form/> */}
 
-     <Counter/>
+     {/* <Counter/> */}
+     <LikeButton/>
     </>
   );
 };
